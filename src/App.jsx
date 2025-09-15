@@ -8,6 +8,9 @@ import GiantBrandText from './components/GiantBrandText.jsx';
 import Missions from './components/Missions.jsx';
 import Services from './components/Services.jsx';
 import Visions from './components/Visions.jsx';
+import Responsibility from './components/Responsibility.jsx';
+import Team from './components/Team.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -27,6 +30,9 @@ useState(() => {
       <Missions />
       <Services />
       <Visions />
+      <Responsibility />
+      <Team />
+      <Footer />
     </div>
   )
 }
