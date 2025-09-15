@@ -27,8 +27,8 @@ export default function Footer() {
             <div className="flex flex-wrap justify-between items-center border-t border-red-700/40 py-8 px-6 max-w-6xl mx-auto">
                 {/* Left: Contact Info */}
                 <div className="text-red-200 text-sm mb-4 md:mb-0 min-w-[180px]">
-                    <div>hello@thirtysixstudio.com</div>
-                    <div>+1 (555) 123-4567</div>
+                    <div>codebyimran@gmail.com</div>
+                    <div>+92 3703027584</div>
                 </div>
 
                 {/* Center: Navigation */}
@@ -47,7 +47,7 @@ export default function Footer() {
 
                 {/* Right: Logo/Brand */}
                 <div className="text-red-200 font-medium tracking-wide min-w-[180px] text-right text-sm md:text-base" style={{textShadow: '0 1px 1px rgba(0,0,0,0.3)'}}>
-                    Thirtysixstudio
+                    codebyimran
                 </div>
             </div>
         </footer>

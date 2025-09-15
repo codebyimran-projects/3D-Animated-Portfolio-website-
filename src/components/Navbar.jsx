@@ -55,12 +55,12 @@ const Navbar = () => {
                     }}
                     onClick={() => scrollToSection('home')}
                 >
-                    thirtysixstudio
+                    codebyimran
                 </div>
                 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex flex-1 justify-center gap-8 lg:gap-12">
-                    {["About", "Work", "Services", "Contact"].map((item) => {
+                    {["Home","About", "Work", "Services", "Contact"].map((item) => {
                         const itemId = item.toLowerCase();
                         const isActive = activeSection === itemId;
                         

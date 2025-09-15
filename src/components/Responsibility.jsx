@@ -6,9 +6,16 @@ import {
   faHandshake,
   faArrowRight
 } from '@fortawesome/free-solid-svg-icons';
+import Canvas from "./Canvas";
+import details from '../utili/data.js'
 
 const Responsibility = () => (
-    <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent">
+    <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent relative overflow-hidden">
+        {
+details[4].map((item, index) => (
+        <Canvas key={index} detail={item} />
+      ))
+        }
         <div className="max-w-4xl mx-auto">
             {/* Section Header */}
             <div className="text-center mb-16">
@@ -25,7 +32,7 @@ const Responsibility = () => (
             <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 md:p-10 border border-red-800/30">
                 <div className="mb-10">
                     <h3 className="text-2xl md:text-3xl font-semibold text-white mb-6" style={{textShadow: '0 1px 2px rgba(0,0,0,0.3)'}}>
-                        At Thirtysixstudio, we recognize our responsibility to create with care for people and planet.
+                        At codebyimran, we recognize our responsibility to create with care for people and planet.
                     </h3>
                     <p className="text-lg text-red-100 leading-relaxed mb-6" style={{textShadow: '0 1px 1px rgba(0,0,0,0.2)'}}>
                         Sustainability is woven into every project we undertake. We prioritize ethical sourcing, energy-efficient processes, and mindful design choices to minimize our environmental impact.

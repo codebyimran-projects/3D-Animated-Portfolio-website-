@@ -10,6 +10,8 @@ import {
   faArrowRight,
   faBolt
 } from '@fortawesome/free-solid-svg-icons';
+import Canvas from "./Canvas";
+import details from '../utili/data.js'
 
 const services = [
     {
@@ -48,7 +50,10 @@ const Services = () => {
     const [activeService, setActiveService] = useState(0);
 
     return (
-        <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent">
+        <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent relative overflow-hidden">
+               {details[3].map((item, index) => (
+                    <Canvas key={index} detail={item} />
+                  ))}
             <div className="max-w-6xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-16">

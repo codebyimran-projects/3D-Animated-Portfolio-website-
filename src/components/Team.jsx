@@ -1,8 +1,12 @@
 import React from "react";
-
+import Canvas from "./Canvas";
+import details from '../utili/data.js'
 const Team = () => {
     return (
-        <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent">
+        <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-transparent relative overflow-hidden">
+            {details[5].map((item, index) => (
+        <Canvas key={index} detail={item} />
+      ))}
             <div className="max-w-4xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -19,7 +23,7 @@ const Team = () => {
                 <div className="bg-white/5 backdrop-blur-md rounded-xl p-8 md:p-10 border border-red-800/30">
                     <div className="mb-10">
                         <h3 className="text-2xl md:text-3xl font-semibold text-white mb-6" style={{textShadow: '0 1px 2px rgba(0,0,0,0.3)'}}>
-                            Thirtysixstudio is creating talented collaborations.
+                            codebyimran is creating talented collaborations.
                         </h3>
                         <p className="text-lg text-red-100 leading-relaxed" style={{textShadow: '0 1px 1px rgba(0,0,0,0.2)'}}>
                             We bring together creative minds to build exceptional work. Join us and be part of a team that values collaboration and innovation.

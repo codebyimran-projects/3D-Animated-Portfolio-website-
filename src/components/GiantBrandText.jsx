@@ -27,7 +27,7 @@ const GiantBrandText = () => {
                         letterSpacing: '-0.02em'
                     }}
                 >
-                    Thirtysixstudio
+                    Codebyimran
                 </h2>
                 
                 {/* Subtle subtitle */}

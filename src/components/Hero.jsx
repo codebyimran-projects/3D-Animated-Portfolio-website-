@@ -20,7 +20,7 @@ const Hero = () => {
     return (
 
 
-        <section className="relative flex flex-col md:flex-row items-center justify-between min-h-screen px-[4vw] py-12 md:py-24 overflow-hidden relative">
+        <section className="relative flex flex-col md:flex-row items-center justify-between min-h-screen px-[4vw] py-12 md:py-15 overflow-hidden relative">
         {details[0].map((item, index) => (
         <Canvas key={index} detail={item} />
       ))}
@@ -43,7 +43,7 @@ const Hero = () => {
                         textShadow: "0 4px 12px rgba(0, 0, 0, 0.4)",
                     }}
                 >
-                    At Thirtysixstudio we build digital products and increase purpose for purposeful brands.
+                    At Codebyimran we build digital products and increase purpose for purposeful brands.
                 </h1>
                 <p
                     className="mt-8 text-lg md:text-xl font-light leading-relaxed text-left max-w-lg"
