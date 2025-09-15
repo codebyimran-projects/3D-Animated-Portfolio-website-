@@ -7,6 +7,7 @@ import Hero from './components/Hero.jsx';
 import GiantBrandText from './components/GiantBrandText.jsx';
 import Missions from './components/Missions.jsx';
 import Services from './components/Services.jsx';
+import Visions from './components/Visions.jsx';
 
 
 function App() {
@@ -23,9 +24,9 @@ useState(() => {
       <Navbar />
       <Hero />
       <GiantBrandText />
-
       <Missions />
       <Services />
+      <Visions />
     </div>
   )
 }
