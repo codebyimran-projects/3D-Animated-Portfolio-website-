@@ -20,8 +20,8 @@ const Hero = () => {
     return (
 
 
-        <section className="relative flex flex-col md:flex-row items-center justify-between min-h-screen px-[4vw] py-12 md:py-24 overflow-hidden ">
-        {details[1].map((item, index) => (
+        <section className="relative flex flex-col md:flex-row items-center justify-between min-h-screen px-[4vw] py-12 md:py-24 overflow-hidden relative">
+        {details[0].map((item, index) => (
         <Canvas key={index} detail={item} />
       ))}
 

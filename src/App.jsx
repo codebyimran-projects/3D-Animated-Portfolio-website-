@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Canvas from './components/Canvas'
-
+import details from './utili/data.js'
 import Navbar from './components/Navbar.jsx';
 import LocomotiveScroll from 'locomotive-scroll';
 import Hero from './components/Hero.jsx';
 import GiantBrandText from './components/GiantBrandText.jsx';
+import Missions from './components/Missions.jsx';
+import Services from './components/Services.jsx';
 
 
 function App() {
@@ -21,6 +23,9 @@ useState(() => {
       <Navbar />
       <Hero />
       <GiantBrandText />
+
+      <Missions />
+      <Services />
     </div>
   )
 }
