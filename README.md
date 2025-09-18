@@ -27,9 +27,9 @@ Created with passion and precision by **Codebyimran**.
 
 ## ⚙️ Installation & Setup
 
-1. Clone this repo:  
+1. Clone this repo: 
    ```bash
-   git clone https://github.com/codebyimran/3d-animated-portfolio.git
-   cd 3d-animated-portfolio
+   git clone https://github.com/codebyimran-projects/3D-Animated-Portfolio-website.git
+   cd 3D-Animated-Portfolio-website
 npm install
 npm run dev
