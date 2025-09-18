@@ -1,12 +1,35 @@
-# React + Vite
+# 🍅🥬 3D Animated Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **3D portfolio website** built with **React.js**, featuring **moving 3D vegetables** and **GSAP animations**.  
+Created with passion and precision by **Codebyimran**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Built with **React.js** for a smooth and modular structure.  
+- 🎨 Eye-catching **3D animated vegetables** floating across the site.  
+- 🌀 Powered by **GSAP animations** for seamless transitions and scroll effects.  
+- 📱 Fully **responsive design** optimized for all devices.  
+- 💡 Showcases **3D modeling, animation, and visualization services**.  
+- 🌍 Interactive UI with a creative **red theme** for bold presentation.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Component-based UI framework  
+- **GSAP (GreenSock Animation Platform)** – Advanced animations and scroll effects  
+- **Three.js / React-Three-Fiber** (optional if used) – For 3D rendering of vegetables  
+- **HTML5 / CSS3 / JavaScript (ES6)** – Core structure and styling  
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/codebyimran/3d-animated-portfolio.git
+   cd 3d-animated-portfolio
+npm install
+npm run dev
